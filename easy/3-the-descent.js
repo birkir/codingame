@@ -16,11 +16,11 @@ while (true) {
 	    heights = [];
 
    	// populate heights
-    for (var i = 0; i <= 7; i++) {
-        heights.push(parseInt(readline(), 0));
-    }
+	for (var i = 0; i <= 7; i++) {
+		heights.push(parseInt(readline(), 0));
+	}
 
-    // when reached the sides
+	// when reached the sides
 	if ((x === 7 & last === 7 && right) || (x === 0 && last === 0 && ! right))
 	{
 		// switch direction
