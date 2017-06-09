@@ -1,5 +1,5 @@
-var str = readline().split('');
-var a, alpha = [];
+const str = readline().split('');
+const a, alpha = [];
 
 str.forEach(c => {
   if (a = alpha.find(b => (b.letter === c))) {
